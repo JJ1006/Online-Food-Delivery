@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* font-family: 'Bree Serif', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Castoro:ital@1&display=swap');
+/* font-family: 'Castoro', serif; */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +28,8 @@
 }
 
 #navbar ul {
-    display: flex;   
+    display: flex; 
+    font-family: 'Castoro', serif;  
 }
 
 #navbar::before {
@@ -58,7 +64,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 375px;
+    height: 770px;
     justify-content: center;
     align-items: center;
 }
@@ -76,15 +82,57 @@
 #home h1{
     color: white;
     text-align: center;
+    font-family: 'Bree Serif', serif;
 }
 
 #home p{
     color: white;
     text-align: center;
     font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
 }
+
+/* Services Section */
+
+#services {
+    margin-top: 114px;
+    display: flex;    
+} 
+ 
+#services .box{
+    border: 3px solid brown;
+}
+
+#services .box img {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+/* Utililty Classes */
 
 .h-primary {
     font-size: 3.4rem;
     padding: 12px;
+}
+
+.h-secondary {
+    font-size: 2.4rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(233, 41, 41);
+    color:white;
+    margin: 17px;
+    font-size: 1.3rem;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
 }
