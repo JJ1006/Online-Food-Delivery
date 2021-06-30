@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root {
     --navbar-height: 59px;
 }
@@ -25,7 +29,7 @@
 #navbar {
     display: flex; 
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0px;
 }
 
@@ -100,11 +104,11 @@
 
 /* Services Section */
 
-.services-container{
-    margin-top: 40px;
+#services-container{
+    margin-top: 28px;
 }
 #services {
-    margin-top: 12px;
+    margin-top: 13px;
     display: flex;    
 } 
 
@@ -129,7 +133,6 @@
 
 #client-section {
     position: relative;
-    /* height: 344px; */
 }
 
 #client-section::before {
@@ -148,7 +151,7 @@
     align-items: center;
 }
 
-.nalayak-image {
+.n-image {
     height: 124px;
 }
 
@@ -207,7 +210,7 @@ footer {
     font-size: 3.4rem;
     text-align: center;
     justify-content: center;
-    padding: 12px;
+    padding-top: 12px;
     font-family: 'Bree Serif', serif;
 }
 
